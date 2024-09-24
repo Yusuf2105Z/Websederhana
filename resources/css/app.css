@@ -1,0 +1,52 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Handjet:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Protest+Guerrilla&display=swap');
+
+.sidebar-custom{
+    min-height: 31.5rem;
+}
+.border-custom {
+    border-radius: 20px;
+}
+.width-custom {
+    max-width: 58.8rem;
+}
+.dash-custom {
+    letter-spacing: 0.5rem;
+    color:#ffffff;
+    background-color: #8892a181;
+}
+.letter-custom {
+    letter-spacing: 0.08rem;
+}
+.italic {
+    color: rgba(142, 138, 187, 0.772);
+}
+.box-custom {
+    width:29rem;
+}
+.text-custom {
+    filter:drop-shadow( 1px 1px 1px );
+    font-family: " Handjet";
+}
+.ctn-custom {
+    backdrop-filter: blur('3px');
+    background-color: #8892a15a;
+    box-shadow:1px 2px 5px rgb(255, 255, 255);
+}
+
+.font-custom {
+    font-size: 1rem;
+}
+.color-custom {
+    color: rgb(105, 113, 154);
+}
+.color {
+    color: rgb(255, 255, 255);
+    text-shadow: 1px 0px 0px  white;
+    letter-spacing: 0.3rem;
+}
